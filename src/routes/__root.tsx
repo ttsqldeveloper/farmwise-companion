@@ -37,6 +37,9 @@ export const Route = createRootRoute({
       { property: "og:title", content: "FarmWise — Smart Farming Assistant" },
       { property: "og:description", content: "AI-powered plant disease diagnosis and farming advisory platform" },
       { property: "og:type", content: "website" },
+      { name: "twitter:title", content: "FarmWise — Smart Farming Assistant" },
+      { name: "twitter:description", content: "AI-powered plant disease diagnosis and farming advisory platform" },
+      { name: "twitter:card", content: "summary" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
