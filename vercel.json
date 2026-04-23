@@ -1,0 +1,9 @@
+// vercel.json
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "build": {
+    "env": {
+      "NODE_VERSION": "22.12.0"
+    }
+  }
+}
